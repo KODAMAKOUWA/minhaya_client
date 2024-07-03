@@ -2,7 +2,7 @@
 	-webkit-appearance: auto;
 	-moz-appearance: auto;
 	appearance: auto;
-	width: 130px;
+	width: 180px;
 }
 
 .problem-table {
@@ -11,10 +11,9 @@
 }
 
 .problem {
-    background: pink;
-	width: 150px;
-	height: 150px;
-	position:static;
+	width: auto;
+	height: auto;
+	position: sticky;
 }
 
 .problem h1 {
@@ -22,9 +21,17 @@
 }
 
 .problem p {
-    font-size: 25px; /* 例として18pxに指定 */
+    font-size: 25px; 
 }
 
-body{
-	background: #647a99bb;
+body { 
+    background-color: rgb(176, 184, 209);
+}
+
+h1{
+	font-size: xx-large; 
+}
+
+select{
+	font-size: x-large;
 }
